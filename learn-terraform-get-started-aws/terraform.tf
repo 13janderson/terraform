@@ -5,11 +5,12 @@ terraform {
       version = "~> 5.92"
     }
   }
+
   cloud {
     organization = "tf_janderson"
     workspaces {
       project = "Learn Terraform"
-      name = "tf_learn"
+      name    = "tf_learn"
     }
   }
 
